@@ -84,6 +84,8 @@ const Optionc = () => {
               </p>
 
               <Image
+                width={1452}
+                height={1166}
                 src="/pic3.JPG"
                 alt="Learning Technologies"
                 className="h-auto max-w-full items-center justify-center"

@@ -21,9 +21,10 @@ export default function Home() {
           You&apos;ve worked hard to create incredible training and learning
           experiences. Now see how well this stacks up with the latest best
           practices in Instructional Design. This website will analyze your
-          instructional design and check for pedagogical alignment across three components: 
-          <br /> 1. Learning Outcomes 
-          <br /> 2. Instructional Strategies 
+          instructional design and check for pedagogical alignment across three
+          components:
+          <br /> 1. Learning Outcomes
+          <br /> 2. Instructional Strategies
           <br /> 3. Learning Technologies
         </p>
         <div>
@@ -50,7 +51,7 @@ export default function Home() {
                   className="z-10"
                 >
                   <Image
-                    src="/helen.jpg"
+                    src="/helen.JPG"
                     alt="helen"
                     width={300}
                     height={300}
@@ -70,7 +71,7 @@ export default function Home() {
                   className="z-10"
                 >
                   <Image
-                    src="/nada.jpg"
+                    src="/nada.JPG"
                     alt="nada"
                     width={300}
                     height={300}

@@ -42,7 +42,13 @@ const AnalysisPage = () => {
             <CardTitle>Learning Outcomes</CardTitle>
           </CardHeader>
           <CardContent>
-            <Image src="/Frame 20.jpg" alt="Card Image" className="w-full" />
+            <Image
+              width={315}
+              height={222}
+              src="/Frame 20.jpg"
+              alt="Card Image"
+              className="w-full"
+            />
           </CardContent>
           <CardFooter>
             <Link
@@ -63,7 +69,13 @@ const AnalysisPage = () => {
             <CardTitle>Instructional Strategies</CardTitle>
           </CardHeader>
           <CardContent>
-            <Image src="pic2.jpg" alt="Card Image" className="w-full" />
+            <Image
+              width={1574}
+              height={1130}
+              src="pic2.jpg"
+              alt="Card Image"
+              className="w-full"
+            />
           </CardContent>
           <CardFooter>
             <Link
@@ -84,7 +96,13 @@ const AnalysisPage = () => {
             <CardTitle>Learning Technologies</CardTitle>
           </CardHeader>
           <CardContent>
-            <Image src="pic3.jpg" alt="Card Image" className="w-full" />
+            <Image
+              width={1452}
+              height={1166}
+              src="pic3.jpg"
+              alt="Card Image"
+              className="w-full"
+            />
           </CardContent>
           <CardFooter>
             <Link
