@@ -4,8 +4,8 @@ import { useOptionContext } from "@/app/option-context";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const optionb = () => {
@@ -61,7 +61,9 @@ const optionb = () => {
                 that promote exploratory-type activities such as engaging
                 students in problem solving, exploration and creation,
                 hypotheses testing, and role-playing.
-                <img
+                <Image
+                  width={1574}
+                  height={1130}
                   src="/pic2.JPG"
                   alt="Instructional Strategies"
                   className="h-auto max-w-full items-center justify-center"

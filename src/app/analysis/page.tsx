@@ -13,6 +13,7 @@ import {
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useOptionContext } from "../option-context";
+import Image from "next/image";
 
 const AnalysisPage = () => {
   const {
@@ -41,7 +42,7 @@ const AnalysisPage = () => {
             <CardTitle>Learning Outcomes</CardTitle>
           </CardHeader>
           <CardContent>
-            <img src="/Frame 20.jpg" alt="Card Image" className="w-full" />
+            <Image src="/Frame 20.jpg" alt="Card Image" className="w-full" />
           </CardContent>
           <CardFooter>
             <Link
@@ -62,7 +63,7 @@ const AnalysisPage = () => {
             <CardTitle>Instructional Strategies</CardTitle>
           </CardHeader>
           <CardContent>
-            <img src="pic2.jpg" alt="Card Image" className="w-full" />
+            <Image src="pic2.jpg" alt="Card Image" className="w-full" />
           </CardContent>
           <CardFooter>
             <Link
@@ -83,7 +84,7 @@ const AnalysisPage = () => {
             <CardTitle>Learning Technologies</CardTitle>
           </CardHeader>
           <CardContent>
-            <img src="pic3.jpg" alt="Card Image" className="w-full" />
+            <Image src="pic3.jpg" alt="Card Image" className="w-full" />
           </CardContent>
           <CardFooter>
             <Link

@@ -4,6 +4,7 @@ import { useOptionContext } from "@/app/option-context";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -81,7 +82,7 @@ const optionc = () => {
                 performances, and spot potential issues.
               </p>
 
-              <img
+              <Image
                 src="/pic3.JPG"
                 alt="Learning Technologies"
                 className="h-auto max-w-full items-center justify-center"
