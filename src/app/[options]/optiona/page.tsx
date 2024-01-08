@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-const optiona = () => {
+const Optiona = () => {
   const [selectedOption, setSelectedOption] = useState<null | string>(null);
   const { selectedOptionA, setSelectedOptionA } = useOptionContext();
 
@@ -117,4 +117,4 @@ const optiona = () => {
   );
 };
 
-export default optiona;
+export default Optiona;

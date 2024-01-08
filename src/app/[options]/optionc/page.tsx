@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const optionc = () => {
+const Optionc = () => {
   const [selectedOption, setSelectedOption] = useState<null | string>(null);
   const { selectedOptionC, setSelectedOptionC } = useOptionContext();
 
@@ -65,7 +65,8 @@ const optionc = () => {
                 <br />
                 <br /> 4. Immersive tools refer to tools used to create a
                 digital environment that allows participants to be totally
-                "immersed" in the context that the environment represents.
+                &quot;immersed&quot; in the context that the environment
+                represents.
                 <br />
                 <br /> 5. Technology tools that we use to search for resources
                 on the internet or in specific knowledge repositories and ways
@@ -75,11 +76,11 @@ const optionc = () => {
                 tools to find what they are looking for.
                 <br />
                 <br /> 6. Assessment is the process of collecting data to
-                determine the extent to which a person's performance or program
-                has met it's intended objective. Analytics refer to the review
-                of a wide range of data produced by and gathered on behalf of
-                students in order to access academic progress, predict future
-                performances, and spot potential issues.
+                determine the extent to which a person&apos;s performance or
+                program has met it&apos;s intended objective. Analytics refer to
+                the review of a wide range of data produced by and gathered on
+                behalf of students in order to access academic progress, predict
+                future performances, and spot potential issues.
               </p>
 
               <Image
@@ -181,4 +182,4 @@ const optionc = () => {
   );
 };
 
-export default optionc;
+export default Optionc;
