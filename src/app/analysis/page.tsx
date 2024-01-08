@@ -72,7 +72,7 @@ const AnalysisPage = () => {
             <Image
               width={1574}
               height={1130}
-              src="/pic2.jpg"
+              src="/pic2.JPG"
               alt="Card Image"
               className="w-full"
             />
@@ -99,7 +99,7 @@ const AnalysisPage = () => {
             <Image
               width={1452}
               height={1166}
-              src="/pic3.jpg"
+              src="/pic3.JPG"
               alt="Card Image"
               className="w-full"
             />
